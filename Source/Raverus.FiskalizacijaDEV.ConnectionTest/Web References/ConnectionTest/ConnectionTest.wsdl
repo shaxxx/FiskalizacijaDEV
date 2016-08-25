@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DohvatiListuMjesta">
+        <s:complexType />
+      </s:element>
+      <s:element name="DohvatiListuMjestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DohvatiListuMjestaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DohvatiListuInternetProvidera">
+        <s:complexType />
+      </s:element>
+      <s:element name="DohvatiListuInternetProvideraResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DohvatiListuInternetProvideraResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DohvatiListuTipVeze">
+        <s:complexType />
+      </s:element>
+      <s:element name="DohvatiListuTipVezeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DohvatiListuTipVezeResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DohvatiListuOs">
+        <s:complexType />
+      </s:element>
+      <s:element name="DohvatiListuOsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DohvatiListuOsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Posalji">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PosaljiResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PosaljiResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DohvatiListuMjestaSoapIn">
+    <wsdl:part name="parameters" element="tns:DohvatiListuMjesta" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuMjestaSoapOut">
+    <wsdl:part name="parameters" element="tns:DohvatiListuMjestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuInternetProvideraSoapIn">
+    <wsdl:part name="parameters" element="tns:DohvatiListuInternetProvidera" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuInternetProvideraSoapOut">
+    <wsdl:part name="parameters" element="tns:DohvatiListuInternetProvideraResponse" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuTipVezeSoapIn">
+    <wsdl:part name="parameters" element="tns:DohvatiListuTipVeze" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuTipVezeSoapOut">
+    <wsdl:part name="parameters" element="tns:DohvatiListuTipVezeResponse" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuOsSoapIn">
+    <wsdl:part name="parameters" element="tns:DohvatiListuOs" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuOsSoapOut">
+    <wsdl:part name="parameters" element="tns:DohvatiListuOsResponse" />
+  </wsdl:message>
+  <wsdl:message name="PosaljiSoapIn">
+    <wsdl:part name="parameters" element="tns:Posalji" />
+  </wsdl:message>
+  <wsdl:message name="PosaljiSoapOut">
+    <wsdl:part name="parameters" element="tns:PosaljiResponse" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuMjestaHttpGetIn" />
+  <wsdl:message name="DohvatiListuMjestaHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuInternetProvideraHttpGetIn" />
+  <wsdl:message name="DohvatiListuInternetProvideraHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuTipVezeHttpGetIn" />
+  <wsdl:message name="DohvatiListuTipVezeHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuOsHttpGetIn" />
+  <wsdl:message name="DohvatiListuOsHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuMjestaHttpPostIn" />
+  <wsdl:message name="DohvatiListuMjestaHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuInternetProvideraHttpPostIn" />
+  <wsdl:message name="DohvatiListuInternetProvideraHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuTipVezeHttpPostIn" />
+  <wsdl:message name="DohvatiListuTipVezeHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="DohvatiListuOsHttpPostIn" />
+  <wsdl:message name="DohvatiListuOsHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="ConnectionTestSoap">
+    <wsdl:operation name="DohvatiListuMjesta">
+      <wsdl:input message="tns:DohvatiListuMjestaSoapIn" />
+      <wsdl:output message="tns:DohvatiListuMjestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <wsdl:input message="tns:DohvatiListuInternetProvideraSoapIn" />
+      <wsdl:output message="tns:DohvatiListuInternetProvideraSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <wsdl:input message="tns:DohvatiListuTipVezeSoapIn" />
+      <wsdl:output message="tns:DohvatiListuTipVezeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <wsdl:input message="tns:DohvatiListuOsSoapIn" />
+      <wsdl:output message="tns:DohvatiListuOsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Posalji">
+      <wsdl:input message="tns:PosaljiSoapIn" />
+      <wsdl:output message="tns:PosaljiSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConnectionTestHttpGet">
+    <wsdl:operation name="DohvatiListuMjesta">
+      <wsdl:input message="tns:DohvatiListuMjestaHttpGetIn" />
+      <wsdl:output message="tns:DohvatiListuMjestaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <wsdl:input message="tns:DohvatiListuInternetProvideraHttpGetIn" />
+      <wsdl:output message="tns:DohvatiListuInternetProvideraHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <wsdl:input message="tns:DohvatiListuTipVezeHttpGetIn" />
+      <wsdl:output message="tns:DohvatiListuTipVezeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <wsdl:input message="tns:DohvatiListuOsHttpGetIn" />
+      <wsdl:output message="tns:DohvatiListuOsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ConnectionTestHttpPost">
+    <wsdl:operation name="DohvatiListuMjesta">
+      <wsdl:input message="tns:DohvatiListuMjestaHttpPostIn" />
+      <wsdl:output message="tns:DohvatiListuMjestaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <wsdl:input message="tns:DohvatiListuInternetProvideraHttpPostIn" />
+      <wsdl:output message="tns:DohvatiListuInternetProvideraHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <wsdl:input message="tns:DohvatiListuTipVezeHttpPostIn" />
+      <wsdl:output message="tns:DohvatiListuTipVezeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <wsdl:input message="tns:DohvatiListuOsHttpPostIn" />
+      <wsdl:output message="tns:DohvatiListuOsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConnectionTestSoap" type="tns:ConnectionTestSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DohvatiListuMjesta">
+      <soap:operation soapAction="http://tempuri.org/DohvatiListuMjesta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <soap:operation soapAction="http://tempuri.org/DohvatiListuInternetProvidera" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <soap:operation soapAction="http://tempuri.org/DohvatiListuTipVeze" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <soap:operation soapAction="http://tempuri.org/DohvatiListuOs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Posalji">
+      <soap:operation soapAction="http://tempuri.org/Posalji" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConnectionTestSoap12" type="tns:ConnectionTestSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DohvatiListuMjesta">
+      <soap12:operation soapAction="http://tempuri.org/DohvatiListuMjesta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <soap12:operation soapAction="http://tempuri.org/DohvatiListuInternetProvidera" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <soap12:operation soapAction="http://tempuri.org/DohvatiListuTipVeze" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <soap12:operation soapAction="http://tempuri.org/DohvatiListuOs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Posalji">
+      <soap12:operation soapAction="http://tempuri.org/Posalji" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConnectionTestHttpGet" type="tns:ConnectionTestHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="DohvatiListuMjesta">
+      <http:operation location="/DohvatiListuMjesta" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <http:operation location="/DohvatiListuInternetProvidera" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <http:operation location="/DohvatiListuTipVeze" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <http:operation location="/DohvatiListuOs" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConnectionTestHttpPost" type="tns:ConnectionTestHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="DohvatiListuMjesta">
+      <http:operation location="/DohvatiListuMjesta" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuInternetProvidera">
+      <http:operation location="/DohvatiListuInternetProvidera" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuTipVeze">
+      <http:operation location="/DohvatiListuTipVeze" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DohvatiListuOs">
+      <http:operation location="/DohvatiListuOs" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConnectionTest">
+    <wsdl:port name="ConnectionTestSoap" binding="tns:ConnectionTestSoap">
+      <soap:address location="https://www.fdev.hr/StatusWS/ConnectionTest.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConnectionTestSoap12" binding="tns:ConnectionTestSoap12">
+      <soap12:address location="https://www.fdev.hr/StatusWS/ConnectionTest.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConnectionTestHttpGet" binding="tns:ConnectionTestHttpGet">
+      <http:address location="https://www.fdev.hr/StatusWS/ConnectionTest.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConnectionTestHttpPost" binding="tns:ConnectionTestHttpPost">
+      <http:address location="https://www.fdev.hr/StatusWS/ConnectionTest.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

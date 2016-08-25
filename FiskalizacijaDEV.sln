@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raverus.FiskalizacijaDEV", "Source\Raverus.FiskalizacijaDEV\Raverus.FiskalizacijaDEV.csproj", "{9F27C1F7-2496-45B0-A890-25157419CAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raverus.FiskalizacijaDEV.Sample", "Source\Raverus.FiskalizacijaDEV.Sample\Raverus.FiskalizacijaDEV.Sample.csproj", "{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raverus.FiskalizacijaDEV.COM", "Source\Raverus.FiskalizacijaDEV.COM\Raverus.FiskalizacijaDEV.COM.csproj", "{7B4B559C-8F8A-42E7-A130-BD94F965CE86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raverus.FiskalizacijaDEV.EXE", "Source\Raverus.FiskalizacijaDEV.EXE\Raverus.FiskalizacijaDEV.EXE.csproj", "{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raverus.FiskalizacijaDEV.ConnectionTest", "Source\Raverus.FiskalizacijaDEV.ConnectionTest\Raverus.FiskalizacijaDEV.ConnectionTest.csproj", "{97F71AD1-7663-4C50-B229-80F271E804D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{9F27C1F7-2496-45B0-A890-25157419CAC6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|Any CPU.Build.0 = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|x86.ActiveCfg = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Debug|x86.Build.0 = Debug|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|Any CPU.ActiveCfg = Release|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|Any CPU.Build.0 = Release|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|x86.ActiveCfg = Release|x86
+		{D37F0208-A260-443D-BD4E-2F3C9D3ABD46}.Release|x86.Build.0 = Release|x86
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7B4B559C-8F8A-42E7-A130-BD94F965CE86}.Release|x86.ActiveCfg = Release|Any CPU
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|Any CPU.Build.0 = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|x86.ActiveCfg = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Debug|x86.Build.0 = Debug|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|Any CPU.ActiveCfg = Release|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|Any CPU.Build.0 = Release|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|x86.ActiveCfg = Release|x86
+		{B16F77A1-451F-4EB6-87B3-D5491FAA6A96}.Release|x86.Build.0 = Release|x86
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{97F71AD1-7663-4C50-B229-80F271E804D3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zeba.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\Raverus.FiskalizacijaDEV.COM\\Raverus.FiskalizacijaDEV.COM.csproj
+		SccProjectName1 = Source/Raverus.FiskalizacijaDEV.COM
+		SccLocalPath1 = Source\\Raverus.FiskalizacijaDEV.COM
+		SccProjectUniqueName2 = Source\\Raverus.FiskalizacijaDEV.ConnectionTest\\Raverus.FiskalizacijaDEV.ConnectionTest.csproj
+		SccProjectName2 = Source/Raverus.FiskalizacijaDEV.ConnectionTest
+		SccLocalPath2 = Source\\Raverus.FiskalizacijaDEV.ConnectionTest
+		SccProjectUniqueName3 = Source\\Raverus.FiskalizacijaDEV.EXE\\Raverus.FiskalizacijaDEV.EXE.csproj
+		SccProjectName3 = Source/Raverus.FiskalizacijaDEV.EXE
+		SccLocalPath3 = Source\\Raverus.FiskalizacijaDEV.EXE
+		SccProjectUniqueName4 = Source\\Raverus.FiskalizacijaDEV.Sample\\Raverus.FiskalizacijaDEV.Sample.csproj
+		SccProjectName4 = Source/Raverus.FiskalizacijaDEV.Sample
+		SccLocalPath4 = Source\\Raverus.FiskalizacijaDEV.Sample
+		SccProjectUniqueName5 = Source\\Raverus.FiskalizacijaDEV\\Raverus.FiskalizacijaDEV.csproj
+		SccProjectName5 = Source/Raverus.FiskalizacijaDEV
+		SccLocalPath5 = Source\\Raverus.FiskalizacijaDEV
+	EndGlobalSection
+EndGlobal

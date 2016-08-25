@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Raverus.FiskalizacijaDEV.ConnectionTest.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Raverus_FiskalizacijaDEV_ConnectionTest_ConnectionTest_ConnectionTest" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://www.fdev.hr/StatusWS/ConnectionTest.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

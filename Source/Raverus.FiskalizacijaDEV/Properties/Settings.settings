@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Raverus.FiskalizacijaDEV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Raverus_FiskalizacijaDEV_CisWebService_FiskalizacijaService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cistest.apis-it.hr:8449/FiskalizacijaServiceTest</Value>
+    </Setting>
+    <Setting Name="Raverus_FiskalizacijaDEV_StatusService_GetStatus" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://www.fdev.hr/StatusWS/GetStatus.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsData" targetNamespace="http://tempuri.org/dsData.xsd" xmlns:mstns="http://tempuri.org/dsData.xsd" xmlns="http://tempuri.org/dsData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsData" msprop:Generator_UserDSName="dsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CT_Rezultati" msprop:Generator_TableClassName="CT_RezultatiDataTable" msprop:Generator_TableVarName="tableCT_Rezultati" msprop:Generator_TablePropName="CT_Rezultati" msprop:Generator_RowDeletingName="CT_RezultatiRowDeleting" msprop:Generator_RowChangingName="CT_RezultatiRowChanging" msprop:Generator_RowEvHandlerName="CT_RezultatiRowChangeEventHandler" msprop:Generator_RowDeletedName="CT_RezultatiRowDeleted" msprop:Generator_UserTableName="CT_Rezultati" msprop:Generator_RowChangedName="CT_RezultatiRowChanged" msprop:Generator_RowEvArgName="CT_RezultatiRowChangeEvent" msprop:Generator_RowClassName="CT_RezultatiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="guid" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnguid" msprop:Generator_ColumnPropNameInRow="guid" msprop:Generator_ColumnPropNameInTable="guidColumn" msprop:Generator_UserColumnName="guid" type="xs:string" />
+              <xs:element name="mjesto_guid" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnmjesto_guid" msprop:Generator_ColumnPropNameInRow="mjesto_guid" msprop:Generator_ColumnPropNameInTable="mjesto_guidColumn" msprop:Generator_UserColumnName="mjesto_guid" type="xs:string" />
+              <xs:element name="internetprovider_guid" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columninternetprovider_guid" msprop:Generator_ColumnPropNameInRow="internetprovider_guid" msprop:Generator_ColumnPropNameInTable="internetprovider_guidColumn" msprop:Generator_UserColumnName="internetprovider_guid" type="xs:string" />
+              <xs:element name="tipveze_guid" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columntipveze_guid" msprop:Generator_ColumnPropNameInRow="tipveze_guid" msprop:Generator_ColumnPropNameInTable="tipveze_guidColumn" msprop:Generator_UserColumnName="tipveze_guid" type="xs:string" />
+              <xs:element name="os_guid" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnos_guid" msprop:Generator_ColumnPropNameInRow="os_guid" msprop:Generator_ColumnPropNameInTable="os_guidColumn" msprop:Generator_UserColumnName="os_guid" type="xs:string" />
+              <xs:element name="echo" msprop:Generator_ColumnVarNameInTable="columnecho" msprop:Generator_ColumnPropNameInRow="echo" msprop:Generator_ColumnPropNameInTable="echoColumn" msprop:Generator_UserColumnName="echo" type="xs:decimal" />
+              <xs:element name="potpis" msprop:Generator_ColumnVarNameInTable="columnpotpis" msprop:Generator_ColumnPropNameInRow="potpis" msprop:Generator_ColumnPropNameInTable="potpisColumn" msprop:Generator_UserColumnName="potpis" type="xs:decimal" />
+              <xs:element name="racun" msprop:Generator_ColumnVarNameInTable="columnracun" msprop:Generator_ColumnPropNameInRow="racun" msprop:Generator_ColumnPropNameInTable="racunColumn" msprop:Generator_UserColumnName="racun" type="xs:decimal" />
+              <xs:element name="TimeStamp" msprop:Generator_ColumnVarNameInTable="columnTimeStamp" msprop:Generator_ColumnPropNameInRow="TimeStamp" msprop:Generator_ColumnPropNameInTable="TimeStampColumn" msprop:Generator_UserColumnName="TimeStamp" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CT_Rezultati" />
+      <xs:field xpath="mstns:guid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
